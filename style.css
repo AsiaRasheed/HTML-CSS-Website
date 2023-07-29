@@ -1,0 +1,483 @@
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  ul,
+  li,
+  a {
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  /* Header styles */
+  header {
+    background-color: #379cd2;
+    color: #fff;
+    padding: 28px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("images/ham1.png") center/cover no-repeat;
+  }
+ 
+  .menu-icons {
+    display: flex;
+    align-items: center;
+  }
+  .hidden-menu {
+    display: none;
+    background-color: #100f0f;
+    padding: 20px;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    width: 250px;
+    height: 300px;
+  }
+  .show-menu {
+    display: block;
+  }
+
+  /* Main styles */
+
+  .sec-1 {
+    height: 60em;
+    width: 100%;
+    background-color: #4cb1e7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .img-sec-1 {
+    max-width: 100%;
+  }
+
+  .data-sec-1 {
+    margin-top: 0;
+    width: 50%;
+    height: 50%;
+    /* border: 1px solid black; */
+    color: white;
+  }
+
+  .data-sec-1 h1 {
+    font-size: 2.8em;
+    font-family: sans-serif !important;
+    font-weight: 300;
+    text-transform: capitalize;
+  }
+  .data-sec-1 h3 {
+    font-family: sans-serif !important;
+    font-weight: 250;
+  }
+  .data-sec-1 button {
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    color: #4a63df;
+  }
+  /* section 2 */
+
+  .sec-2 {
+  
+    width: 100%;
+    
+    height: 27em;
+  }
+  .data-sec-2 {
+    text-align: center;
+    font-family: sans-serif !important;
+    width: 100%;
+  }
+
+  .data-sec-2 h1 {
+    font-size: 3em;
+    font-weight: 250;
+    padding-top: 30px;
+  }
+  .data-sec-2 p {
+    font-size: 1em;
+    font-weight: 100;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    line-height: 1.8;
+    text-align: center;
+    padding-left: 390px;
+  }
+  .data-sec-2 button {
+    background-color: #5fbfe5;
+    padding: 20px;
+    border-radius: 26px;
+    color: white;
+    width: 200px;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  /* section 3 */
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .left-image {
+    flex: 1;
+    height: 400px; /* Set the desired height for the images */
+    background-image: url("images/1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .right-image {
+    flex: 1;
+    height: 400px; /* Set the desired height for the images */
+    background-image: url("images/7.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .center-content {
+    flex: 1;
+    text-align: center;
+    height: 400px;
+    background-color: #4cb1e7;
+  }
+
+  .center-content h2 {
+    font-size: 24px;
+    color: white;
+    padding-top: 50px;
+  }
+
+  .center-content p {
+    padding-top: 20px;
+    font-size: 16px;
+    color: white;
+    font-family: sans-serif !important;
+    font-weight: 250;
+    padding-left: 55px;
+  }
+
+  .learn-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+
+  .learn-more-btn:hover {
+    background-color: #3885d7;
+  }
+  /* section 4 */
+
+  .container4 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .upper-4 p{
+    text-align: center;
+    width: 100%;
+    
+  }
+  .upper-4 p
+   {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: sans-serif !important;
+    font-weight: 250;
+    padding-left: 360px;
+  }
+  .upper-4 h1
+   {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: sans-serif !important;
+    font-weight: 350;
+    padding-left: 630px;
+  }
+
+  .left-side,
+  .right-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .center-div {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .center-image img {
+    max-width: 80%;
+    display: block;
+  }
+
+  .left-side > div,
+  .right-side > div {
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+
+  .left-side {
+    text-align: right;
+  }
+
+  .right-side {
+    text-align: left;
+  }
+  .right-side p {
+    color: #808080 !important;
+    margin-top: 15px;
+    padding: 0;
+  }
+
+  .left-side .right-side h1,
+  h3 {
+    margin-bottom: 10px;
+    padding: 0;
+    font-size: 25px;
+    font-family: sans-serif !important;
+    font-weight: 250;
+  }
+
+  .left-side p {
+    color: #808080 !important;
+    margin-top: 15px;
+    padding: 0;
+  }
+
+  /* section 5 */
+  .container5 {
+    display: flex;
+    justify-content: space-between;
+  }
+ .box1 {
+    background-color: #0e80bd;
+    height: 250px;
+   
+  }
+  .box1 p,
+  h2 {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+  }
+  .box2 {
+    background-color: #379cd2;
+    height: 250px;
+    
+  }
+  .box2 p,
+  h2 {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+  }
+  .box3 {
+    background-color: #64b7e4;
+    height: 250px;
+   
+  }
+  .box3 p,
+  h2 {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+  }
+  .box4 {
+    background-color: #abd9f2;
+    height: 250px;
+   
+  }
+  .box4 p,
+  h2 {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+  }
+  /* section 6 */
+
+  .container6 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .container6 div {
+    width: 30%;
+    margin: 45px;
+    padding-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5); 
+  }
+
+  .container6 div img {
+    max-width: 50%;
+    height: auto;
+    float: right;
+  }
+
+  .container6 div h5 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #379cd2;
+    font-family: sans-serif !important;
+  }
+
+  .container6 div p {
+    font-size: 14px;
+    color: black;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: sans-serif !important;
+    font-weight: 250;
+  }
+  /* section 7 */
+  /* General styling for the section */
+  .container7 {
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+  }
+
+  /* Styling for the left cell */
+  .sec-7 {
+    flex: 1;
+    background-image: url("images/3.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  /* Styling for the right cell (form) */
+  .sec-7-form {
+    flex: 1;
+    padding: 50px;
+    background-color: #4cb1e7;
+    color: white;
+  }
+  .sec-7-form h2 {
+    padding-bottom: 15px;
+    font-family: sans-serif !important;
+    font-weight: 300;
+    text-align: center;
+  }
+  .sec-7-form p {
+    padding-bottom: 15px;
+    font-family: sans-serif !important;
+    font-weight: 250;
+  text-align: center;
+  color: white;
+  padding-left: 110px;
+  }
+  .sec-7-form form {
+    padding-bottom: 20px;
+    font-family: sans-serif !important;
+    font-weight: 250;
+    text-align: center;
+  }
+  .sec-7-form button {
+    background-color: white;
+    padding: 15px;
+    border-radius: 26px;
+    color: black;
+    width: 170px;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  input {
+    height: 40px;
+    width: 400px;
+    padding-left: 10px;
+  }
+  textarea {
+    height: 40px;
+    width: 400px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  /* section 8 */
+  /* CSS code for 4-column layout */
+  .container8 {
+display: flex;
+height: 50vh;
+
+}
+
+.container8  div {
+color: black;
+flex: 1;
+padding: 40px;
+
+
+}
+.container8 a,p{
+color: black;
+display: flex;
+font-family: sans-serif !important;
+font-weight: 250;
+padding: 8px;
+}
+.container8 h4{
+color: black;
+font-size: 20px;
+font-family: sans-serif !important;
+font-weight: 250;
+padding-top: 10px;
+}
+
+.container8 .icon{
+display: flex;
+}
+  /* Footer styles */
+  .foot{
+    background-color: #333;
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .foot p{
+    color: white;
+  }
+  .foot p u{
+    color:#73a7de;
+  }
+  
